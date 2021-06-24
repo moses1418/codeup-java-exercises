@@ -22,10 +22,10 @@ public class ConsoleIO {
 //        String firstName = scanner.next();
 //        System.out.printf("you entered %s\n", firstName);
 
-
-        System.out.print("enter num");
-        int myNum = Scanner.nextInt();
-        System.out.println(myNum);
+//
+//        System.out.print("enter num");
+//        int myNum = Scanner.nextInt();
+//        System.out.println(myNum);
 
     }
 }
