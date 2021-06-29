@@ -26,8 +26,6 @@ public class lectureToDo {
             System.out.println("you have a valid username");
         }
 
-        ,.,
-
 
         //TODO: refactor your code from the previous mini exercise into a switch statement
 
@@ -46,6 +44,9 @@ public class lectureToDo {
                 System.out.println("You have a valid username.");
                 break;
         }
+
+
+
 
     }
 
