@@ -96,20 +96,28 @@ public class morningExercises {
             //       - accepts: your age. returns: "that's crazy! you don't look
             //        100 years old!"
 
-            public static void myName(){
+//            public static void myName(){
+//
+//                System.out.println("what is your name? ");
+//                String name = sc.next();
+//
+//                System.out.println("Hello" + name + "it's nice to meet you!");
+//            }
+//
+//            public static void myAge(){
+//                System.out.println("what is your age? ");
+//                String age = sc.next();
+//
+//                System.out.println("That's crazy! you don't look" + age + "years old!");
+//            }
 
-                System.out.println("what is your name? ");
-                String name = sc.next();
 
-                System.out.println("Hello" + name + "it's nice to meet you!");
-            }
 
-            public static void myAge(){
-                System.out.println("what is your age? ");
-                String age = sc.next();
-
-                System.out.println("That's crazy! you don't look" + age + "years old!");
-            }
+            //    TODO: you are a sports manager. Prompt your client who is training
+            //     for a marathon how many miles they have to run today. You're the
+            //     coach, so you decide how many miles they ran that day. print out
+            //     how many miles they have left in training until they have 0 miles
+            //     left.
 
 
 
