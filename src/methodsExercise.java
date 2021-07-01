@@ -57,6 +57,7 @@ public class MethodsExercises {
             System.out.println("Do you wish to continue? y/n");
             if(scan.nextLine().toLowerCase().equals("n")){
                 break;
+                adf
             }
         }
     }
