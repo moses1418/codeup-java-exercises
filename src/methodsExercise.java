@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MethodsExercises {
+public class methodsExercise {
 
     public static int addNumber(int num1, int num2) {
         return num1 + num2;
@@ -57,7 +57,6 @@ public class MethodsExercises {
             System.out.println("Do you wish to continue? y/n");
             if(scan.nextLine().toLowerCase().equals("n")){
                 break;
-                adf
             }
         }
     }
