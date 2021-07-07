@@ -1,5 +1,7 @@
 public class HelloWorld {
-    public static void main(String[] args){
-        System.out.println("Hello, World");
-    }
+        public static void main(String[] args) {
+            int x = 5 * 4 % 3;
+            System.out.println(x);
+        }
+
 }
