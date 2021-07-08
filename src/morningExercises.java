@@ -112,12 +112,17 @@ public class morningExercises {
 //            }
 
 
+            System.out.println("write a string: " );
+            String input = sc.nextLine();
 
-            //    TODO: you are a sports manager. Prompt your client who is training
-            //     for a marathon how many miles they have to run today. You're the
-            //     coach, so you decide how many miles they ran that day. print out
-            //     how many miles they have left in training until they have 0 miles
-            //     left.
+            int strLngth = 0;
+
+            for (int i = 0; i < input.length(); i ++){
+
+                if (Character.isUpperCase(input.charAt(i))) strLngth++;
+
+                System.out.println("UpperCase: " + strLngth);
+            }
 
 
 
