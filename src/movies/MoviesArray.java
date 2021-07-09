@@ -20,7 +20,7 @@ public class MoviesArray {
                 new Movie("Star Wars", "scifi"),
                 new Movie("All About Eve", "drama"),
                 new Movie("The African Queen", "drama"),
-                new Movie("Psycho" , "horror"),
+                new Movie("Psycho", "horror"),
                 new Movie("Chinatown", "drama"),
                 new Movie("One Flew Over The Cuckoo's Nest", "drama"),
                 new Movie("The Grapes Of Wrath", "drama"),
@@ -105,7 +105,24 @@ public class MoviesArray {
                 new Movie("Yankee Doodle Dandy", "musical")
         };
     }
-
+    public static void getMovies() {
+        Movie[] movies = MoviesArray.findAll();
+        System.out.println("******************************** All Movies ************************************************\n");
+        for (Movie movie : movies) {
+            System.out.println(movie.getName() + " - " + movie.getCategory());
+        }
+        System.out.println("********************************************************************************************");
+    }
+    public static void getMoviesByCategory(String category) {
+        Movie[] movies = MoviesArray.findAll();
+        System.out.printf("******************************** Movies in the %s category ********************************\n", category);
+        for (Movie movie : movies) {
+            if (movie.getCategory().equalsIgnoreCase(category)) {
+                System.out.println(movie.getName() + " - " + movie.getCategory());
+            }
+        }
+        System.out.println("********************************************************************************************");
+    }
 }
 
 
