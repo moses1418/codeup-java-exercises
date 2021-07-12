@@ -1,15 +1,10 @@
 package movies;
 
 import java.util.Scanner;
+
 public class Input {
     Scanner scanner = new Scanner(System.in);
-    //    static int userInput = 0;
-//    public static int getUserInput() {
-//        return userInput;
-//    }
-//    public static void setUserInput(int userInput) {
-//        Input.userInput = userInput;
-//    }
+
     public int showOptions() {
         {
             System.out.println("What would you like to do?\n" +

@@ -8,6 +8,7 @@ public class MoviesApplication {
         printMovies(input.showOptions());
     }
     private static void printMovies(int userInput) {
+
         switch (userInput) {
             case 0:
                 return;
@@ -32,6 +33,7 @@ public class MoviesApplication {
             default:
                 System.out.println("Invalid choice");
         }
+
         Input input = new Input();
         printMovies(input.showOptions());
     }
