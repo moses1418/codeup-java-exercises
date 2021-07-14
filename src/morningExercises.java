@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class morningExercises {
@@ -112,23 +113,30 @@ public class morningExercises {
 //            }
 
 
-            System.out.println("write a string: " );
-            String input = sc.nextLine();
-
-            int strLngth = 0;
-
-            for (int i = 0; i < input.length(); i ++){
-
-                if (Character.isUpperCase(input.charAt(i))) strLngth++;
-
-                System.out.println("UpperCase: " + strLngth);
-            }
-
-
-
-
-
-
-
+//            System.out.println("write a string: " );
+//            String input = sc.nextLine();
+//
+//            int strLngth = 0;
+//
+//            for (int i = 0; i < input.length(); i ++){
+//
+//                if (Character.isUpperCase(input.charAt(i))) strLngth++;
+//
+//                System.out.println("UpperCase: " + strLngth);
+//            }
         }
+
+        public void newAcount(){
+            int age = 0;
+            int money = 0;
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("what is your age? ");
+
+            if (age < 16 && money < 200){
+                System.out.println("sorry you are not eligible for Banco di Laura");
+            } else if (age >= 16 && money >= 200){
+                System.out.println("thanks for opening a new account with Banco di Laura");
+            }
+        }
+
 }
